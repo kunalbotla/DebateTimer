@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Debate_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIm-Ve-fRW">
+                                <rect key="frame" x="16" y="379" width="343" height="80"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4Uj-aQ-3bz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="CrossFire">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="crossfireButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ZL-0o-MCJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujG-MY-1y0">
+                                <rect key="frame" x="16" y="567" width="166" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="aPF-Bq-tNX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="adL-An-5Ij"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hel-hT-wlU">
+                                <rect key="frame" x="16" y="79" width="343" height="190"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ud-jR-UaJ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Public Forum Debate Timer" id="WOT-Pm-ph5"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SR9-uG-fQb">
+                                <rect key="frame" x="196" y="473" width="165" height="80"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Final Focus">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="finalfocusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ouy-vO-2xL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuE-R0-AlJ">
+                                <rect key="frame" x="16" y="473" width="166" height="80"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="tJr-o4-C5g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Summary">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="summaryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OxD-sG-ARn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYb-GK-4KM">
+                                <rect key="frame" x="16" y="284" width="166" height="80"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Pj5-WK-JWO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Case">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="caseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XeR-SI-uC3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6y-RO-adQ">
+                                <rect key="frame" x="196" y="284" width="165" height="80"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="xjb-eL-p3o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Rebutal">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="rebutalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GJ-ur-VRC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hew-lo-zZN">
+                                <rect key="frame" x="195" y="567" width="166" height="80"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xkd-2w-WxZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hew-lo-zZN" firstAttribute="leading" secondItem="ujG-MY-1y0" secondAttribute="trailing" constant="13" id="4Qy-Wy-sXc"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="top" secondItem="iIm-Ve-fRW" secondAttribute="bottom" constant="14" id="4VX-aC-tvf"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="trailing" secondItem="ujG-MY-1y0" secondAttribute="trailing" id="53Y-q8-p75"/>
+                            <constraint firstItem="ujG-MY-1y0" firstAttribute="baseline" secondItem="hew-lo-zZN" secondAttribute="firstBaseline" id="6te-Mm-HCu"/>
+                            <constraint firstItem="Hel-hT-wlU" firstAttribute="top" secondItem="4ud-jR-UaJ" secondAttribute="bottom" constant="15" id="8LV-ZU-7dF"/>
+                            <constraint firstItem="iIm-Ve-fRW" firstAttribute="top" secondItem="GYb-GK-4KM" secondAttribute="bottom" constant="15" id="B2g-YA-co3"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="leading" secondItem="ujG-MY-1y0" secondAttribute="leading" id="DlB-vT-GSC"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="height" secondItem="GYb-GK-4KM" secondAttribute="height" id="HVa-cd-RDB"/>
+                            <constraint firstItem="SR9-uG-fQb" firstAttribute="centerX" secondItem="hew-lo-zZN" secondAttribute="centerX" id="IWt-rs-Nyb"/>
+                            <constraint firstItem="g6y-RO-adQ" firstAttribute="trailing" secondItem="SR9-uG-fQb" secondAttribute="trailing" id="JIg-kZ-ssG"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="baseline" secondItem="SR9-uG-fQb" secondAttribute="firstBaseline" id="JqZ-1U-RiJ"/>
+                            <constraint firstItem="GYb-GK-4KM" firstAttribute="trailing" secondItem="NuE-R0-AlJ" secondAttribute="trailing" id="KGR-lk-TwY"/>
+                            <constraint firstItem="SR9-uG-fQb" firstAttribute="trailing" secondItem="hew-lo-zZN" secondAttribute="trailing" id="Mya-K9-XWA"/>
+                            <constraint firstItem="Hel-hT-wlU" firstAttribute="leading" secondItem="GYb-GK-4KM" secondAttribute="leading" id="PIG-Na-Ooe"/>
+                            <constraint firstItem="4ud-jR-UaJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PzL-d3-JX6"/>
+                            <constraint firstItem="4ud-jR-UaJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SJ5-vJ-U3U"/>
+                            <constraint firstItem="NuE-R0-AlJ" firstAttribute="top" secondItem="SR9-uG-fQb" secondAttribute="top" id="Seh-WE-14B"/>
+                            <constraint firstItem="ujG-MY-1y0" firstAttribute="height" secondItem="GYb-GK-4KM" secondAttribute="height" id="TDt-Ho-kVI"/>
+                            <constraint firstItem="GYb-GK-4KM" firstAttribute="top" secondItem="Hel-hT-wlU" secondAttribute="bottom" constant="15" id="TjU-ut-DSZ"/>
+                            <constraint firstItem="ujG-MY-1y0" firstAttribute="top" secondItem="NuE-R0-AlJ" secondAttribute="bottom" constant="14" id="VqZ-mR-QFH"/>
+                            <constraint firstItem="iIm-Ve-fRW" firstAttribute="leading" secondItem="NuE-R0-AlJ" secondAttribute="leading" id="Vxo-O6-Cx3"/>
+                            <constraint firstAttribute="bottom" secondItem="ujG-MY-1y0" secondAttribute="bottom" constant="20" symbolic="YES" id="WiS-Cq-oQ9"/>
+                            <constraint firstItem="GYb-GK-4KM" firstAttribute="top" secondItem="g6y-RO-adQ" secondAttribute="top" id="a7G-14-BXw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g6y-RO-adQ" secondAttribute="trailing" constant="14" id="aNh-Lv-BgU"/>
+                            <constraint firstItem="GYb-GK-4KM" firstAttribute="leading" secondItem="iIm-Ve-fRW" secondAttribute="leading" id="b5A-mu-u6k"/>
+                            <constraint firstItem="g6y-RO-adQ" firstAttribute="height" secondItem="GYb-GK-4KM" secondAttribute="height" id="bE4-tE-JjJ"/>
+                            <constraint firstItem="GYb-GK-4KM" firstAttribute="baseline" secondItem="g6y-RO-adQ" secondAttribute="firstBaseline" id="dH8-LP-9iR"/>
+                            <constraint firstAttribute="trailing" secondItem="4ud-jR-UaJ" secondAttribute="trailing" id="eou-t9-QdP"/>
+                            <constraint firstItem="4ud-jR-UaJ" firstAttribute="centerX" secondItem="Hel-hT-wlU" secondAttribute="centerX" id="i4W-gy-x6n"/>
+                            <constraint firstItem="hew-lo-zZN" firstAttribute="height" secondItem="GYb-GK-4KM" secondAttribute="height" id="l60-s3-6iA"/>
+                            <constraint firstItem="Hel-hT-wlU" firstAttribute="trailing" secondItem="iIm-Ve-fRW" secondAttribute="trailing" id="mDP-ow-eEE"/>
+                            <constraint firstItem="SR9-uG-fQb" firstAttribute="height" secondItem="GYb-GK-4KM" secondAttribute="height" id="mkY-hX-c6e"/>
+                            <constraint firstItem="g6y-RO-adQ" firstAttribute="leading" secondItem="SR9-uG-fQb" secondAttribute="leading" id="q6Q-OS-aDf"/>
+                            <constraint firstItem="Hel-hT-wlU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sR3-BC-zqG"/>
+                            <constraint firstItem="ujG-MY-1y0" firstAttribute="top" secondItem="hew-lo-zZN" secondAttribute="top" id="sSo-r7-bwH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pauseButtonOutlet" destination="ujG-MY-1y0" id="rTv-j7-ji5"/>
+                        <outlet property="timeDisplay" destination="Hel-hT-wlU" id="9BO-9J-CtD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.03448275862069"/>
+        </scene>
+    </scenes>
+</document>
