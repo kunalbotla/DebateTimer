@@ -15,8 +15,7 @@
 		1E2F40DE1F804996008985C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F40DC1F804996008985C0 /* LaunchScreen.storyboard */; };
 		1E2F40E91F804996008985C0 /* Debate_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40E81F804996008985C0 /* Debate_TimerTests.swift */; };
 		1E2F40F41F804996008985C0 /* Debate_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40F31F804996008985C0 /* Debate_TimerUITests.swift */; };
-		1EB1D3521F96B72E008A4459 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1D3511F96B72E008A4459 /* DisplayViewController.swift */; };
-		1EB905E31F97AA040042B6A2 /* TemporaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB905E21F97AA040042B6A2 /* TemporaryViewController.swift */; };
+		1EB1D3521F96B72E008A4459 /* timeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,7 @@
 		1E2F40F31F804996008985C0 /* Debate_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerUITests.swift; sourceTree = "<group>"; };
 		1E2F40F51F804996008985C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E2F41011F81998D008985C0 /* Debate Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Debate Timer.entitlements"; sourceTree = "<group>"; };
-		1EB1D3511F96B72E008A4459 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
-		1EB905E21F97AA040042B6A2 /* TemporaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryViewController.swift; sourceTree = "<group>"; };
+		1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +106,8 @@
 				1E2F41011F81998D008985C0 /* Debate Timer.entitlements */,
 				1E2F40D01F804996008985C0 /* AppDelegate.swift */,
 				1E2F40D21F804996008985C0 /* ViewController.swift */,
-				1EB1D3511F96B72E008A4459 /* DisplayViewController.swift */,
+				1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */,
 				1E2F40D41F804996008985C0 /* Main.storyboard */,
-				1EB905E21F97AA040042B6A2 /* TemporaryViewController.swift */,
 				1E2F40DA1F804996008985C0 /* Assets.xcassets */,
 				1E2F40DC1F804996008985C0 /* LaunchScreen.storyboard */,
 				1E2F40DF1F804996008985C0 /* Info.plist */,
@@ -279,10 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EB905E31F97AA040042B6A2 /* TemporaryViewController.swift in Sources */,
 				1E2F40D31F804996008985C0 /* ViewController.swift in Sources */,
 				1E2F40D11F804996008985C0 /* AppDelegate.swift in Sources */,
-				1EB1D3521F96B72E008A4459 /* DisplayViewController.swift in Sources */,
+				1EB1D3521F96B72E008A4459 /* timeDisplayViewController.swift in Sources */,
 				1E2F40D91F804996008985C0 /* Debate_Timer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7E79B5SK54;
 				INFOPLIST_FILE = "Debate Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -468,7 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7E79B5SK54;
 				INFOPLIST_FILE = "Debate Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";

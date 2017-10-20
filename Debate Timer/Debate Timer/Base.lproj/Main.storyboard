@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ud-jR-UaJ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="162"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Debate Timer " id="WOT-Pm-ph5"/>
+                                    <navigationItem title="Debate Timer" id="gS8-xY-0WA"/>
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SR9-uG-fQb">
-                                <rect key="frame" x="16" y="567" width="343" height="80"/>
+                                <rect key="frame" x="16" y="479" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
@@ -39,11 +38,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="finalfocusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ouy-vO-2xL"/>
+                                    <action selector="finalfocusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GSF-Im-s1e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuE-R0-AlJ">
-                                <rect key="frame" x="16" y="479" width="343" height="80"/>
+                                <rect key="frame" x="16" y="391" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
@@ -56,11 +55,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="summaryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OxD-sG-ARn"/>
+                                    <action selector="summaryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FoG-ft-gFR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYb-GK-4KM">
-                                <rect key="frame" x="16" y="215" width="343" height="80"/>
+                                <rect key="frame" x="16" y="127" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
@@ -73,11 +72,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="caseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XeR-SI-uC3"/>
+                                    <action selector="caseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4cM-xb-t03"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6y-RO-adQ">
-                                <rect key="frame" x="16" y="303" width="343" height="80"/>
+                                <rect key="frame" x="16" y="215" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
@@ -90,15 +89,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="rebutalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7GJ-ur-VRC"/>
+                                    <action selector="rebuttalButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PLJ-aT-qOC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iIm-Ve-fRW">
-                                <rect key="frame" x="16" y="391" width="343" height="80"/>
+                                <rect key="frame" x="16" y="303" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <state key="normal" title="CrossFire">
+                                <state key="normal" title="Cross Fire">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -107,8 +106,36 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="crossfireButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ZL-0o-MCJ"/>
+                                    <action selector="crossfireButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LFL-4w-juT"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t05-Ji-6hi">
+                                <rect key="frame" x="16" y="567" width="166" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Our Prep Time">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2o-HJ-vLq">
+                                <rect key="frame" x="194" y="567" width="166" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Their Prep Time">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,8 +154,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hel-hT-wlU">
-                                <rect key="frame" x="32" y="289" width="311.5" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hel-hT-wlU">
+                                <rect key="frame" x="32" y="288" width="311.5" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -138,17 +166,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOd-bT-2mO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Debate Timer " id="Zb6-Pu-nJ4">
-                                        <barButtonItem key="backBarButtonItem" title="Things" id="SRo-1e-nPs"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujG-MY-1y0">
-                                <rect key="frame" x="15" y="500.5" width="166" height="80"/>
+                                <rect key="frame" x="15" y="479" width="166" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -165,7 +184,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hew-lo-zZN">
-                                <rect key="frame" x="193" y="500.5" width="166" height="80"/>
+                                <rect key="frame" x="193" y="479" width="166" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
@@ -179,11 +198,34 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="resetButton:" destination="10P-TP-qHG" eventType="touchUpInside" id="Vba-Zo-C82"/>
-                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xkd-2w-WxZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bas-B0-oEi">
+                                <rect key="frame" x="15" y="567" width="344" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetButton:" destination="10P-TP-qHG" eventType="touchUpInside" id="kFO-5W-hFs"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nOd-bT-2mO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Debate Timer" id="Ilp-v4-VA0"/>
+                                </items>
+                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Focus" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7DW-Uf-AaG">
-                                <rect key="frame" x="86" y="411" width="203" height="59"/>
+                                <rect key="frame" x="86" y="221" width="203" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
                                 <nil key="textColor"/>
@@ -191,15 +233,11 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Hel-hT-wlU" firstAttribute="centerX" secondItem="qiJ-de-WQc" secondAttribute="centerX" id="SYI-hw-GnN"/>
-                            <constraint firstItem="Hel-hT-wlU" firstAttribute="centerY" secondItem="qiJ-de-WQc" secondAttribute="centerY" id="k12-0c-ZPP"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="eqP-pi-ZzB"/>
                     </view>
                     <connections>
                         <outlet property="navigationBar" destination="nOd-bT-2mO" id="ZHf-al-OMz"/>
-                        <outlet property="pauseresumeButtonOutlet" destination="ujG-MY-1y0" id="Xbz-jA-Yai"/>
+                        <outlet property="pauseresumeButtonOutlet" destination="ujG-MY-1y0" id="Rg8-VR-96n"/>
                         <outlet property="stateDisplay" destination="7DW-Uf-AaG" id="pCt-6v-cOh"/>
                         <outlet property="timeDisplay" destination="Hel-hT-wlU" id="3Kr-xF-pC3"/>
                     </connections>
