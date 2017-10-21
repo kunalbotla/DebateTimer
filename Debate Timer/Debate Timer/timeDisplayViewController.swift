@@ -31,6 +31,11 @@ class timeDisplayViewController: UIViewController {
     @IBOutlet weak var pauseresumeButtonOutlet: UIButton!
     
     @IBAction func resetButton(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func startButton(_ sender: UIButton) {
+        runTimer()
     }
     
     //Setup
@@ -88,7 +93,6 @@ class timeDisplayViewController: UIViewController {
     if stateName = "Case" {
         stateDisplay.text = state
         seconds = 240
-        runTimer()
     }
     //<-
     
