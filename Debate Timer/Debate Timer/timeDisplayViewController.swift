@@ -39,7 +39,7 @@ class timeDisplayViewController: UIViewController {
     }
     
     //Setup
-    stateDisplay.text
+    stateDisplay.text = state
     
     //Functions
     func runTimer() {
@@ -68,14 +68,14 @@ class timeDisplayViewController: UIViewController {
         state = "Waiting"
         stateDisplay.text = state
     }
-    func timeString(time:TimeInterval) -> String {
+    func timeSring(time:TimeInterval) -> String {
         let hours = Int(time) / 3600
         let minutes = Int(time) / 60 % 60
         let seconds = Int(time) % 60
         
         return String(format:"%02i:%02i:%02i", hours, minutes, seconds)
     }
-    func pauseresetTimer() {
+    func pauseresumeTimer() {
         if self.resumeTapped == false {
             timer.invalidate()
             self.resumeTapped = true
@@ -84,13 +84,13 @@ class timeDisplayViewController: UIViewController {
         else {
             runTimer()
             self.resumeTapped = false
-            self.pauseresumeButtonOutlet.setTitle("Pause", for: .normal)
+            self.pauseresumeButtonOutlet.setTitle("Resume", for: .normal)
         }
     }
     //<-
     
     //New Code
-    if stateName = "Case" {
+    if seconds = "Case" {
         stateDisplay.text = state
         seconds = 240
     }
