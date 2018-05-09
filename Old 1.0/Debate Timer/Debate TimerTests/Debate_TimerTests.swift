@@ -2,7 +2,7 @@
 //  Debate_TimerTests.swift
 //  Debate TimerTests
 //
-//  Created by Kunal Botla on 11/10/17.
+//  Created by Kunal Botla on 9/30/17.
 //  Copyright © 2017 Kunal Botla. All rights reserved.
 //
 

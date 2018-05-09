@@ -7,68 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E12DD3E1FB6162D0062D175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DD3D1FB6162D0062D175 /* AppDelegate.swift */; };
-		1E12DD401FB6162D0062D175 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DD3F1FB6162D0062D175 /* FirstViewController.swift */; };
-		1E12DD421FB6162D0062D175 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DD411FB6162D0062D175 /* SecondViewController.swift */; };
-		1E12DD451FB6162D0062D175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E12DD431FB6162D0062D175 /* Main.storyboard */; };
-		1E12DD471FB6162D0062D175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E12DD461FB6162D0062D175 /* Assets.xcassets */; };
-		1E12DD4A1FB6162D0062D175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E12DD481FB6162D0062D175 /* LaunchScreen.storyboard */; };
-		1E12DD551FB6162E0062D175 /* Debate_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DD541FB6162E0062D175 /* Debate_TimerTests.swift */; };
-		1E12DD601FB6162E0062D175 /* Debate_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E12DD5F1FB6162E0062D175 /* Debate_TimerUITests.swift */; };
-		1E63CFD21FBC9F0200F737C5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63CFD11FBC9F0200F737C5 /* ThirdViewController.swift */; };
+		1E2F40D11F804996008985C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40D01F804996008985C0 /* AppDelegate.swift */; };
+		1E2F40D31F804996008985C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40D21F804996008985C0 /* ViewController.swift */; };
+		1E2F40D61F804996008985C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F40D41F804996008985C0 /* Main.storyboard */; };
+		1E2F40D91F804996008985C0 /* Debate_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40D71F804996008985C0 /* Debate_Timer.xcdatamodeld */; };
+		1E2F40DB1F804996008985C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F40DA1F804996008985C0 /* Assets.xcassets */; };
+		1E2F40DE1F804996008985C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2F40DC1F804996008985C0 /* LaunchScreen.storyboard */; };
+		1E2F40E91F804996008985C0 /* Debate_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40E81F804996008985C0 /* Debate_TimerTests.swift */; };
+		1E2F40F41F804996008985C0 /* Debate_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2F40F31F804996008985C0 /* Debate_TimerUITests.swift */; };
+		1E640F3A1F99A92F0027302A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E640F391F99A92F0027302A /* SettingsViewController.swift */; };
+		1EB1D3521F96B72E008A4459 /* timeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E12DD511FB6162E0062D175 /* PBXContainerItemProxy */ = {
+		1E2F40E51F804996008985C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E12DD321FB6162D0062D175 /* Project object */;
+			containerPortal = 1E2F40C51F804996008985C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E12DD391FB6162D0062D175;
+			remoteGlobalIDString = 1E2F40CC1F804996008985C0;
 			remoteInfo = "Debate Timer";
 		};
-		1E12DD5C1FB6162E0062D175 /* PBXContainerItemProxy */ = {
+		1E2F40F01F804996008985C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1E12DD321FB6162D0062D175 /* Project object */;
+			containerPortal = 1E2F40C51F804996008985C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E12DD391FB6162D0062D175;
+			remoteGlobalIDString = 1E2F40CC1F804996008985C0;
 			remoteInfo = "Debate Timer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E12DD3A1FB6162D0062D175 /* Debate Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debate Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E12DD3D1FB6162D0062D175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E12DD3F1FB6162D0062D175 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		1E12DD411FB6162D0062D175 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		1E12DD441FB6162D0062D175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1E12DD461FB6162D0062D175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1E12DD491FB6162D0062D175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1E12DD4B1FB6162D0062D175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E12DD501FB6162E0062D175 /* Debate TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E12DD541FB6162E0062D175 /* Debate_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerTests.swift; sourceTree = "<group>"; };
-		1E12DD561FB6162E0062D175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E12DD5B1FB6162E0062D175 /* Debate TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E12DD5F1FB6162E0062D175 /* Debate_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerUITests.swift; sourceTree = "<group>"; };
-		1E12DD611FB6162E0062D175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E63CFD11FBC9F0200F737C5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		1E2F40CD1F804996008985C0 /* Debate Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Debate Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F40D01F804996008985C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E2F40D21F804996008985C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E2F40D51F804996008985C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E2F40D81F804996008985C0 /* Debate_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Debate_Timer.xcdatamodel; sourceTree = "<group>"; };
+		1E2F40DA1F804996008985C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E2F40DD1F804996008985C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E2F40DF1F804996008985C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2F40E41F804996008985C0 /* Debate TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F40E81F804996008985C0 /* Debate_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerTests.swift; sourceTree = "<group>"; };
+		1E2F40EA1F804996008985C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2F40EF1F804996008985C0 /* Debate TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2F40F31F804996008985C0 /* Debate_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerUITests.swift; sourceTree = "<group>"; };
+		1E2F40F51F804996008985C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2F41011F81998D008985C0 /* Debate Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Debate Timer.entitlements"; sourceTree = "<group>"; };
+		1E640F391F99A92F0027302A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1E12DD371FB6162D0062D175 /* Frameworks */ = {
+		1E2F40CA1F804996008985C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD4D1FB6162E0062D175 /* Frameworks */ = {
+		1E2F40E11F804996008985C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD581FB6162E0062D175 /* Frameworks */ = {
+		1E2F40EC1F804996008985C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +81,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E12DD311FB6162D0062D175 = {
+		1E2F40C41F804996008985C0 = {
 			isa = PBXGroup;
 			children = (
-				1E12DD3C1FB6162D0062D175 /* Debate Timer */,
-				1E12DD531FB6162E0062D175 /* Debate TimerTests */,
-				1E12DD5E1FB6162E0062D175 /* Debate TimerUITests */,
-				1E12DD3B1FB6162D0062D175 /* Products */,
+				1E2F40CF1F804996008985C0 /* Debate Timer */,
+				1E2F40E71F804996008985C0 /* Debate TimerTests */,
+				1E2F40F21F804996008985C0 /* Debate TimerUITests */,
+				1E2F40CE1F804996008985C0 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
-		1E12DD3B1FB6162D0062D175 /* Products */ = {
+		1E2F40CE1F804996008985C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1E12DD3A1FB6162D0062D175 /* Debate Timer.app */,
-				1E12DD501FB6162E0062D175 /* Debate TimerTests.xctest */,
-				1E12DD5B1FB6162E0062D175 /* Debate TimerUITests.xctest */,
+				1E2F40CD1F804996008985C0 /* Debate Timer.app */,
+				1E2F40E41F804996008985C0 /* Debate TimerTests.xctest */,
+				1E2F40EF1F804996008985C0 /* Debate TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1E12DD3C1FB6162D0062D175 /* Debate Timer */ = {
+		1E2F40CF1F804996008985C0 /* Debate Timer */ = {
 			isa = PBXGroup;
 			children = (
-				1E12DD3D1FB6162D0062D175 /* AppDelegate.swift */,
-				1E12DD3F1FB6162D0062D175 /* FirstViewController.swift */,
-				1E12DD411FB6162D0062D175 /* SecondViewController.swift */,
-				1E63CFD11FBC9F0200F737C5 /* ThirdViewController.swift */,
-				1E12DD431FB6162D0062D175 /* Main.storyboard */,
-				1E12DD461FB6162D0062D175 /* Assets.xcassets */,
-				1E12DD481FB6162D0062D175 /* LaunchScreen.storyboard */,
-				1E12DD4B1FB6162D0062D175 /* Info.plist */,
+				1E2F41011F81998D008985C0 /* Debate Timer.entitlements */,
+				1E2F40D01F804996008985C0 /* AppDelegate.swift */,
+				1E2F40D21F804996008985C0 /* ViewController.swift */,
+				1EB1D3511F96B72E008A4459 /* timeDisplayViewController.swift */,
+				1E640F391F99A92F0027302A /* SettingsViewController.swift */,
+				1E2F40D41F804996008985C0 /* Main.storyboard */,
+				1E2F40DA1F804996008985C0 /* Assets.xcassets */,
+				1E2F40DC1F804996008985C0 /* LaunchScreen.storyboard */,
+				1E2F40DF1F804996008985C0 /* Info.plist */,
+				1E2F40D71F804996008985C0 /* Debate_Timer.xcdatamodeld */,
 			);
 			path = "Debate Timer";
 			sourceTree = "<group>";
 		};
-		1E12DD531FB6162E0062D175 /* Debate TimerTests */ = {
+		1E2F40E71F804996008985C0 /* Debate TimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				1E12DD541FB6162E0062D175 /* Debate_TimerTests.swift */,
-				1E12DD561FB6162E0062D175 /* Info.plist */,
+				1E2F40E81F804996008985C0 /* Debate_TimerTests.swift */,
+				1E2F40EA1F804996008985C0 /* Info.plist */,
 			);
 			path = "Debate TimerTests";
 			sourceTree = "<group>";
 		};
-		1E12DD5E1FB6162E0062D175 /* Debate TimerUITests */ = {
+		1E2F40F21F804996008985C0 /* Debate TimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1E12DD5F1FB6162E0062D175 /* Debate_TimerUITests.swift */,
-				1E12DD611FB6162E0062D175 /* Info.plist */,
+				1E2F40F31F804996008985C0 /* Debate_TimerUITests.swift */,
+				1E2F40F51F804996008985C0 /* Info.plist */,
 			);
 			path = "Debate TimerUITests";
 			sourceTree = "<group>";
@@ -134,13 +140,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1E12DD391FB6162D0062D175 /* Debate Timer */ = {
+		1E2F40CC1F804996008985C0 /* Debate Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E12DD641FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate Timer" */;
+			buildConfigurationList = 1E2F40F81F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate Timer" */;
 			buildPhases = (
-				1E12DD361FB6162D0062D175 /* Sources */,
-				1E12DD371FB6162D0062D175 /* Frameworks */,
-				1E12DD381FB6162D0062D175 /* Resources */,
+				1E2F40C91F804996008985C0 /* Sources */,
+				1E2F40CA1F804996008985C0 /* Frameworks */,
+				1E2F40CB1F804996008985C0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,72 +154,80 @@
 			);
 			name = "Debate Timer";
 			productName = "Debate Timer";
-			productReference = 1E12DD3A1FB6162D0062D175 /* Debate Timer.app */;
+			productReference = 1E2F40CD1F804996008985C0 /* Debate Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1E12DD4F1FB6162E0062D175 /* Debate TimerTests */ = {
+		1E2F40E31F804996008985C0 /* Debate TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E12DD671FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */;
+			buildConfigurationList = 1E2F40FB1F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */;
 			buildPhases = (
-				1E12DD4C1FB6162E0062D175 /* Sources */,
-				1E12DD4D1FB6162E0062D175 /* Frameworks */,
-				1E12DD4E1FB6162E0062D175 /* Resources */,
+				1E2F40E01F804996008985C0 /* Sources */,
+				1E2F40E11F804996008985C0 /* Frameworks */,
+				1E2F40E21F804996008985C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E12DD521FB6162E0062D175 /* PBXTargetDependency */,
+				1E2F40E61F804996008985C0 /* PBXTargetDependency */,
 			);
 			name = "Debate TimerTests";
 			productName = "Debate TimerTests";
-			productReference = 1E12DD501FB6162E0062D175 /* Debate TimerTests.xctest */;
+			productReference = 1E2F40E41F804996008985C0 /* Debate TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1E12DD5A1FB6162E0062D175 /* Debate TimerUITests */ = {
+		1E2F40EE1F804996008985C0 /* Debate TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E12DD6A1FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */;
+			buildConfigurationList = 1E2F40FE1F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */;
 			buildPhases = (
-				1E12DD571FB6162E0062D175 /* Sources */,
-				1E12DD581FB6162E0062D175 /* Frameworks */,
-				1E12DD591FB6162E0062D175 /* Resources */,
+				1E2F40EB1F804996008985C0 /* Sources */,
+				1E2F40EC1F804996008985C0 /* Frameworks */,
+				1E2F40ED1F804996008985C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E12DD5D1FB6162E0062D175 /* PBXTargetDependency */,
+				1E2F40F11F804996008985C0 /* PBXTargetDependency */,
 			);
 			name = "Debate TimerUITests";
 			productName = "Debate TimerUITests";
-			productReference = 1E12DD5B1FB6162E0062D175 /* Debate TimerUITests.xctest */;
+			productReference = 1E2F40EF1F804996008985C0 /* Debate TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1E12DD321FB6162D0062D175 /* Project object */ = {
+		1E2F40C51F804996008985C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Kunal Botla";
 				TargetAttributes = {
-					1E12DD391FB6162D0062D175 = {
+					1E2F40CC1F804996008985C0 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
 					};
-					1E12DD4F1FB6162E0062D175 = {
+					1E2F40E31F804996008985C0 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1E12DD391FB6162D0062D175;
+						TestTargetID = 1E2F40CC1F804996008985C0;
 					};
-					1E12DD5A1FB6162E0062D175 = {
+					1E2F40EE1F804996008985C0 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 1E12DD391FB6162D0062D175;
+						TestTargetID = 1E2F40CC1F804996008985C0;
 					};
 				};
 			};
-			buildConfigurationList = 1E12DD351FB6162D0062D175 /* Build configuration list for PBXProject "Debate Timer" */;
+			buildConfigurationList = 1E2F40C81F804996008985C0 /* Build configuration list for PBXProject "Debate Timer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,37 +235,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 1E12DD311FB6162D0062D175;
-			productRefGroup = 1E12DD3B1FB6162D0062D175 /* Products */;
+			mainGroup = 1E2F40C41F804996008985C0;
+			productRefGroup = 1E2F40CE1F804996008985C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E12DD391FB6162D0062D175 /* Debate Timer */,
-				1E12DD4F1FB6162E0062D175 /* Debate TimerTests */,
-				1E12DD5A1FB6162E0062D175 /* Debate TimerUITests */,
+				1E2F40CC1F804996008985C0 /* Debate Timer */,
+				1E2F40E31F804996008985C0 /* Debate TimerTests */,
+				1E2F40EE1F804996008985C0 /* Debate TimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E12DD381FB6162D0062D175 /* Resources */ = {
+		1E2F40CB1F804996008985C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E12DD4A1FB6162D0062D175 /* LaunchScreen.storyboard in Resources */,
-				1E12DD471FB6162D0062D175 /* Assets.xcassets in Resources */,
-				1E12DD451FB6162D0062D175 /* Main.storyboard in Resources */,
+				1E2F40DE1F804996008985C0 /* LaunchScreen.storyboard in Resources */,
+				1E2F40DB1F804996008985C0 /* Assets.xcassets in Resources */,
+				1E2F40D61F804996008985C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD4E1FB6162E0062D175 /* Resources */ = {
+		1E2F40E21F804996008985C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD591FB6162E0062D175 /* Resources */ = {
+		1E2F40ED1F804996008985C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,61 +275,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E12DD361FB6162D0062D175 /* Sources */ = {
+		1E2F40C91F804996008985C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E12DD421FB6162D0062D175 /* SecondViewController.swift in Sources */,
-				1E12DD3E1FB6162D0062D175 /* AppDelegate.swift in Sources */,
-				1E63CFD21FBC9F0200F737C5 /* ThirdViewController.swift in Sources */,
-				1E12DD401FB6162D0062D175 /* FirstViewController.swift in Sources */,
+				1E2F40D31F804996008985C0 /* ViewController.swift in Sources */,
+				1E2F40D11F804996008985C0 /* AppDelegate.swift in Sources */,
+				1EB1D3521F96B72E008A4459 /* timeDisplayViewController.swift in Sources */,
+				1E640F3A1F99A92F0027302A /* SettingsViewController.swift in Sources */,
+				1E2F40D91F804996008985C0 /* Debate_Timer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD4C1FB6162E0062D175 /* Sources */ = {
+		1E2F40E01F804996008985C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E12DD551FB6162E0062D175 /* Debate_TimerTests.swift in Sources */,
+				1E2F40E91F804996008985C0 /* Debate_TimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E12DD571FB6162E0062D175 /* Sources */ = {
+		1E2F40EB1F804996008985C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E12DD601FB6162E0062D175 /* Debate_TimerUITests.swift in Sources */,
+				1E2F40F41F804996008985C0 /* Debate_TimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E12DD521FB6162E0062D175 /* PBXTargetDependency */ = {
+		1E2F40E61F804996008985C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E12DD391FB6162D0062D175 /* Debate Timer */;
-			targetProxy = 1E12DD511FB6162E0062D175 /* PBXContainerItemProxy */;
+			target = 1E2F40CC1F804996008985C0 /* Debate Timer */;
+			targetProxy = 1E2F40E51F804996008985C0 /* PBXContainerItemProxy */;
 		};
-		1E12DD5D1FB6162E0062D175 /* PBXTargetDependency */ = {
+		1E2F40F11F804996008985C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1E12DD391FB6162D0062D175 /* Debate Timer */;
-			targetProxy = 1E12DD5C1FB6162E0062D175 /* PBXContainerItemProxy */;
+			target = 1E2F40CC1F804996008985C0 /* Debate Timer */;
+			targetProxy = 1E2F40F01F804996008985C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E12DD431FB6162D0062D175 /* Main.storyboard */ = {
+		1E2F40D41F804996008985C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E12DD441FB6162D0062D175 /* Base */,
+				1E2F40D51F804996008985C0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1E12DD481FB6162D0062D175 /* LaunchScreen.storyboard */ = {
+		1E2F40DC1F804996008985C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1E12DD491FB6162D0062D175 /* Base */,
+				1E2F40DD1F804996008985C0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,7 +338,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1E12DD621FB6162E0062D175 /* Debug */ = {
+		1E2F40F61F804996008985C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		1E12DD631FB6162E0062D175 /* Release */ = {
+		1E2F40F71F804996008985C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,37 +445,39 @@
 			};
 			name = Release;
 		};
-		1E12DD651FB6162E0062D175 /* Debug */ = {
+		1E2F40F91F804996008985C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7E79B5SK54;
 				INFOPLIST_FILE = "Debate Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botla.OldDebateTimer.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1E12DD661FB6162E0062D175 /* Release */ = {
+		1E2F40FA1F804996008985C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7E79B5SK54;
 				INFOPLIST_FILE = "Debate Timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.botla.OldDebateTimer.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1E12DD681FB6162E0062D175 /* Debug */ = {
+		1E2F40FC1F804996008985C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -477,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		1E12DD691FB6162E0062D175 /* Release */ = {
+		1E2F40FD1F804996008985C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,7 +511,7 @@
 			};
 			name = Release;
 		};
-		1E12DD6B1FB6162E0062D175 /* Debug */ = {
+		1E2F40FF1F804996008985C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +527,7 @@
 			};
 			name = Debug;
 		};
-		1E12DD6C1FB6162E0062D175 /* Release */ = {
+		1E2F41001F804996008985C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,43 +546,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E12DD351FB6162D0062D175 /* Build configuration list for PBXProject "Debate Timer" */ = {
+		1E2F40C81F804996008985C0 /* Build configuration list for PBXProject "Debate Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E12DD621FB6162E0062D175 /* Debug */,
-				1E12DD631FB6162E0062D175 /* Release */,
+				1E2F40F61F804996008985C0 /* Debug */,
+				1E2F40F71F804996008985C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E12DD641FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate Timer" */ = {
+		1E2F40F81F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E12DD651FB6162E0062D175 /* Debug */,
-				1E12DD661FB6162E0062D175 /* Release */,
+				1E2F40F91F804996008985C0 /* Debug */,
+				1E2F40FA1F804996008985C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E12DD671FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */ = {
+		1E2F40FB1F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E12DD681FB6162E0062D175 /* Debug */,
-				1E12DD691FB6162E0062D175 /* Release */,
+				1E2F40FC1F804996008985C0 /* Debug */,
+				1E2F40FD1F804996008985C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E12DD6A1FB6162E0062D175 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */ = {
+		1E2F40FE1F804996008985C0 /* Build configuration list for PBXNativeTarget "Debate TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E12DD6B1FB6162E0062D175 /* Debug */,
-				1E12DD6C1FB6162E0062D175 /* Release */,
+				1E2F40FF1F804996008985C0 /* Debug */,
+				1E2F41001F804996008985C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E2F40D71F804996008985C0 /* Debate_Timer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E2F40D81F804996008985C0 /* Debate_Timer.xcdatamodel */,
+			);
+			currentVersion = 1E2F40D81F804996008985C0 /* Debate_Timer.xcdatamodel */;
+			path = Debate_Timer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 1E12DD321FB6162D0062D175 /* Project object */;
+	rootObject = 1E2F40C51F804996008985C0 /* Project object */;
 }
