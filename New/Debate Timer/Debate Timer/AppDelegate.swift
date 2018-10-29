@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+//AF S
+import AppsFlyerLib
+//AF E
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        AppsFlyerTracker.shared().appsFlyerDevKey = "EXdsco6yuk8wyAVoCBq9m3"
+        AppsFlyerTracker.shared().appleAppID = "1295173100"
+        
+        AppsFlyerTracker.shared().delegate = self as? AppsFlyerTrackerDelegate
+        
+        //ifdef DEBUG AppsFlyerTracker.shared().isDebug = true
+        //#endif
+        
+        
         return true
     }
 
@@ -36,6 +49,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        // Track Installs, updates & sessions(app opens) (You must include this API to enable tracking)
+        AppsFlyerTracker.shared().trackAppLaunch()
+        // your other code here.... }
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
