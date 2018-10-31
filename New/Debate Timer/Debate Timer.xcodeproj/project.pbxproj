@@ -15,6 +15,7 @@
 		1E74BB9D215BE2B500DCEE16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E74BB9B215BE2B500DCEE16 /* LaunchScreen.storyboard */; };
 		1E74BBA8215BE2B600DCEE16 /* Debate_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74BBA7215BE2B600DCEE16 /* Debate_TimerTests.swift */; };
 		1E74BBB3215BE2B600DCEE16 /* Debate_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74BBB2215BE2B600DCEE16 /* Debate_TimerUITests.swift */; };
+		1EAFE99B2180B33F00697C5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAFE99A2180B33F00697C5B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1E74BBAE215BE2B600DCEE16 /* Debate TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Debate TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E74BBB2215BE2B600DCEE16 /* Debate_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debate_TimerUITests.swift; sourceTree = "<group>"; };
 		1E74BBB4215BE2B600DCEE16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAFE99A2180B33F00697C5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1E74BB8F215BE2B300DCEE16 /* AppDelegate.swift */,
 				1E74BB91215BE2B300DCEE16 /* ViewController.swift */,
+				1EAFE99A2180B33F00697C5B /* SecondViewController.swift */,
 				1E74BB93215BE2B300DCEE16 /* Main.storyboard */,
 				1E74BB99215BE2B500DCEE16 /* Assets.xcassets */,
 				1E74BB9B215BE2B500DCEE16 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAFE99B2180B33F00697C5B /* SecondViewController.swift in Sources */,
 				1E74BB92215BE2B300DCEE16 /* ViewController.swift in Sources */,
 				1E74BB90215BE2B300DCEE16 /* AppDelegate.swift in Sources */,
 				1E74BB98215BE2B300DCEE16 /* Debate_Timer.xcdatamodeld in Sources */,
