@@ -299,6 +299,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UBo-D6-9QR"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0kp-2b-kMP"/>
                     <connections>
                         <outlet property="labelSpeech" destination="d1G-fx-E6u" id="19q-MZ-sNU"/>
                         <outlet property="labelTimer" destination="xJz-Is-Pfl" id="j9r-t2-EVg"/>
