@@ -31,7 +31,9 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//Added By Kunal Botla - Start
+        labelSpeech.text = speech
+//Added By Kunal Botla - End
         // Do any additional setup after loading the view.
     }
     

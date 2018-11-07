@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelProPrep: UILabel!
     
     @IBAction func buttonConPrep(_ sender: Any) {
-        speech "Con Prep"
+        speech = "Con Prep"
     }
     
     @IBOutlet weak var labelConPrep: UILabel!
