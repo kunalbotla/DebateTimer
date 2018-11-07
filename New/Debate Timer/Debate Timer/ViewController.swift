@@ -8,6 +8,8 @@
 
 import UIKit
 
+var speech = "nil"
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var navbarHome: UINavigationBar!
@@ -16,26 +18,33 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonCase(_ sender: Any) {
+        speech = "Case"
     }
     
-    @IBAction func buttonRebttal(_ sender: Any) {
+    @IBAction func buttonRebuttal(_ sender: Any) {
+        speech = "Rebuttal"
     }
     
     @IBAction func buttonCrossFire(_ sender: Any) {
+        speech = "Cross Fire"
     }
     
     @IBAction func buttonSummary(_ sender: Any) {
+        speech = "Summary"
     }
     
     @IBAction func buttonFinalFocus(_ sender: Any) {
+        speech = "Final Focus"
     }
     
     @IBAction func buttonProPrep(_ sender: Any) {
+        speech = "Pro Prep"
     }
     
     @IBOutlet weak var labelProPrep: UILabel!
     
     @IBAction func buttonConPrep(_ sender: Any) {
+        speech "Con Prep"
     }
     
     @IBOutlet weak var labelConPrep: UILabel!
