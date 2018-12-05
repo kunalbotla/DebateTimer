@@ -270,25 +270,6 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-jX-4Fv">
-                                <rect key="frame" x="16" y="382" width="159.33333333333334" height="64"/>
-                                <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="rS4-fe-uqi"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <state key="normal" title="Pause">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonPauseResume:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="cfQ-r1-Wkc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIi-Km-kFV">
                                 <rect key="frame" x="199.66666666666663" y="382" width="159.33333333333337" height="64"/>
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
@@ -346,6 +327,25 @@
                                     <action selector="buttonStart:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="mgK-yv-oba"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-jX-4Fv">
+                                <rect key="frame" x="16" y="381" width="159.33333333333334" height="64"/>
+                                <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="rS4-fe-uqi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buttonPauseResume:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="NsA-a7-ttG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -376,8 +376,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="0kp-2b-kMP"/>
                     <connections>
+                        <outlet property="buttonPauseResumeOutlet" destination="swJ-jX-4Fv" id="5eQ-Gc-gH6"/>
+                        <outlet property="buttonResetOutlet" destination="VIi-Km-kFV" id="R6m-Ed-6AU"/>
+                        <outlet property="buttonStartOutlet" destination="Vht-2t-7zV" id="3qg-LK-OFN"/>
                         <outlet property="labelSpeech" destination="d1G-fx-E6u" id="19q-MZ-sNU"/>
-                        <outlet property="labelTimer" destination="xJz-Is-Pfl" id="j9r-t2-EVg"/>
+                        <outlet property="labelTimer" destination="xJz-Is-Pfl" id="LHQ-kA-A1J"/>
                         <outlet property="navbarTimer" destination="WK9-fZ-YZg" id="EUw-dY-vEW"/>
                     </connections>
                 </viewController>

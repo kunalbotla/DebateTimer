@@ -18,19 +18,20 @@ class SecondViewController: UIViewController {
     
     
     //State conversion
-    //if speech = "Case" {
-    //    startingTime = caseAndRebuttalTime
-    //} if speech = "Rebuttal" {
-    //    startingTime = caseAndRebuttalTime
-    //} if speech = "Cross Fire" {
-    //    startingTime = crossFireTime
-    //} if speech = "Summary" {
-    //    startingTime = summaryAndFinalFocusTime
-    //} if speech = "Final Focus" {
-    //    startingTime = summaryAndFinalFocusTime
-    //}
+    print("state")
+    if speech == "Case" {
+        startingTime = caseAndRebuttalTime
+    } else if speech = "Rebuttal" {
+        startingTime = caseAndRebuttalTime
+    } else if speech = "Cross Fire" {
+        startingTime = crossFireTime
+    } else if speech = "Summary" {
+        startingTime = summaryAndFinalFocusTime
+    } else if speech = "Final Focus" {
+        startingTime = summaryAndFinalFocusTime
+    }
     
-    var seconds = 60 //Timer starting amount
+    var seconds = 0 //Timer starting amount
     var timer = Timer()
     var timerIsRunning = false
     var resumeState = false
@@ -38,8 +39,8 @@ class SecondViewController: UIViewController {
     
     func runTimer() {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(SecondViewController.updateTimer)), userInfo: nil, repeats: true)
-        
         timerIsRunning = true
+        buttonPauseResumeOutlet.isEnabled = true
     }
     
     @objc func updateTimer() {
@@ -63,37 +64,47 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var navbarTimer: UINavigationBar!
     
-    @IBAction func buttonFullReset(_ sender: Any) {
+    @IBAction func buttonFullReset(_ sender: UIButton) {
     }
     
     @IBOutlet weak var labelSpeech: UILabel!
     
     @IBOutlet weak var labelTimer: UILabel!
     
-    @IBAction func buttonPauseResume(_ sender: Any) {
+    @IBOutlet weak var buttonPauseResumeOutlet: UIButton!
+    
+    @IBOutlet weak var buttonResetOutlet: UIButton!
+    
+    @IBOutlet weak var buttonStartOutlet: UIButton!
+    
+    
+    @IBAction func buttonPauseResume(_ sender: UIButton) {
         if self.resumeState == false {
             timer.invalidate()
             self.resumeState = true
-            self.buttonPauseResume.setTitle("Resume", for: .normal)
+            self.buttonPauseResumeOutlet.setTitle("Resume", for: .normal)
         } else {
             runTimer()
             self.resumeState = false
-            self.buttonPauseResume.setTitle("Pause", for: .normal)
+            self.buttonPauseResumeOutlet.setTitle("Pause", for: .normal)
         }
     }
     
-    @IBAction func buttonReset(_ sender: Any) {
+    @IBAction func buttonReset(_ sender: UIButton) {
         timer.invalidate()
         
         seconds = startingTime //Reset to original time
         labelTimer.text =  timeString(time: TimeInterval(seconds))
         
         timerIsRunning = false
+        
+        buttonPauseResumeOutlet.isEnabled = false
     }
     
-    @IBAction func buttonStart(_ sender: Any) {
+    @IBAction func buttonStart(_ sender: UIButton) {
         if timerIsRunning == false {
             runTimer()
+            self.buttonStartOutlet.isEnabled = false
         }
     }
     
@@ -101,6 +112,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 //Added By Kunal Botla - Start
         labelSpeech.text = speech
+//Added for Timer
+        buttonPauseResumeOutlet.isEnabled = false
 //Added By Kunal Botla - End
         // Do any additional setup after loading the view.
     }
