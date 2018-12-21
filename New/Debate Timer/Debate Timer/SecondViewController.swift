@@ -14,22 +14,8 @@ class SecondViewController: UIViewController {
     var caseAndRebuttalTime = 180
     var crossFireTime = 240
     var summaryAndFinalFocusTime = 120
+    var localSpeech = "Blank"
     
-    
-    
-    //State conversion
-    print("state")
-    if speech == "Case" {
-        startingTime = caseAndRebuttalTime
-    } else if speech = "Rebuttal" {
-        startingTime = caseAndRebuttalTime
-    } else if speech = "Cross Fire" {
-        startingTime = crossFireTime
-    } else if speech = "Summary" {
-        startingTime = summaryAndFinalFocusTime
-    } else if speech = "Final Focus" {
-        startingTime = summaryAndFinalFocusTime
-    }
     
     var seconds = 0 //Timer starting amount
     var timer = Timer()
@@ -41,6 +27,7 @@ class SecondViewController: UIViewController {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(SecondViewController.updateTimer)), userInfo: nil, repeats: true)
         timerIsRunning = true
         buttonPauseResumeOutlet.isEnabled = true
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
     }
     
     @objc func updateTimer() {
@@ -112,6 +99,19 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 //Added By Kunal Botla - Start
         labelSpeech.text = speech
+        if speech == "Case" {
+            startingTime = caseAndRebuttalTime
+        } else if speech == "Rebuttal" {
+            startingTime = caseAndRebuttalTime
+        } else if speech == "Cross Fire" {
+            startingTime = crossFireTime
+        } else if speech == "Summary" {
+            startingTime = summaryAndFinalFocusTime
+        } else if speech == "Final Focus" {
+            startingTime = summaryAndFinalFocusTime
+        }
+        seconds = startingTime
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
 //Added for Timer
         buttonPauseResumeOutlet.isEnabled = false
 //Added By Kunal Botla - End

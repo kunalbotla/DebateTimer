@@ -9,12 +9,18 @@
 import UIKit
 
 var speech = "nil"
+var proPrepTime = 120
+var conPrepTime = 120
+
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var navbarHome: UINavigationBar!
     
     @IBAction func buttonReset(_ sender: Any) {
+        speech = "nil"
+        proPrepTime = 120
+        conPrepTime = 120
     }
     
     @IBAction func buttonCase(_ sender: Any) {
