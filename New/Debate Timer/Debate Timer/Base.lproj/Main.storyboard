@@ -24,7 +24,7 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Home" id="8xT-22-J4w">
-                                        <barButtonItem key="rightBarButtonItem" title="Reset" id="L2S-Ne-gZ8">
+                                        <barButtonItem key="rightBarButtonItem" title="Full Reset" id="L2S-Ne-gZ8">
                                             <connections>
                                                 <action selector="buttonReset:" destination="BYZ-38-t0r" id="dbe-8f-aag"/>
                                             </connections>
@@ -243,6 +243,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <connections>
+                                    <action selector="buttonBack:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="YFs-ag-FCK"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="gEQ-HQ-aLa"/>
                                 </connections>
                             </button>

@@ -52,6 +52,20 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var navbarTimer: UINavigationBar!
     
     @IBAction func buttonFullReset(_ sender: UIButton) {
+        //Normal Part
+        timer.invalidate()
+        
+        seconds = startingTime //Reset to original time
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
+        
+        timerIsRunning = false
+        
+        buttonPauseResumeOutlet.isEnabled = false
+        
+        //Full Part
+        speech = "nil"
+        proPrepTime = 120
+        conPrepTime = 120
     }
     
     @IBOutlet weak var labelSpeech: UILabel!
@@ -95,6 +109,15 @@ class SecondViewController: UIViewController {
         }
     }
     
+    @IBAction func buttonBack(_ sender: UIButton) {
+        if speech == "Pro Prep" {
+            proPrepTime = seconds
+        } else if speech == "Con Prep" {
+            conPrepTime = seconds
+        }
+        prepRefresh = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //Added By Kunal Botla - Start
@@ -109,6 +132,10 @@ class SecondViewController: UIViewController {
             startingTime = summaryAndFinalFocusTime
         } else if speech == "Final Focus" {
             startingTime = summaryAndFinalFocusTime
+        } else if speech == "Pro Prep" {
+            startingTime = proPrepTime
+        } else if speech == "Con Prep" {
+            startingTime = conPrepTime
         }
         seconds = startingTime
         labelTimer.text =  timeString(time: TimeInterval(seconds))
