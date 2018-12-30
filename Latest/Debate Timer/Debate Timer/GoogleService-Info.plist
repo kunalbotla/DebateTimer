@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>848022567804-4i6n34h3m9m5nptqinr1332ua10vlg9f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.848022567804-4i6n34h3m9m5nptqinr1332ua10vlg9f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD0yjyBnHfxm-StLge5kQmx6zGSrBxilnU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>848022567804</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.botla.Debate-Timer</string>
+	<key>PROJECT_ID</key>
+	<string>public-forum-debate-timer</string>
+	<key>STORAGE_BUCKET</key>
+	<string>public-forum-debate-timer.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:848022567804:ios:7efe788b51ae8d1d</string>
+	<key>DATABASE_URL</key>
+	<string>https://public-forum-debate-timer.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-8610495521048327~9605231397</string>
+</dict>
+</plist>
