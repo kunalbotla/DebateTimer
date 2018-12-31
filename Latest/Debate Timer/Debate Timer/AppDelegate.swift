@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import Firebase
+import AppsFlyerLib
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Initialize AdMob
         GADMobileAds.configure(withApplicationID: "ca-app-pub-8610495521048327~9605231397")
+        
+        //Initialize AppsFlyer
+        AppsFlyerTracker.shared().appsFlyerDevKey = "<your-appsflyer-dev-key>";
+        AppsFlyerTracker.shared().appleAppID = "123456789"
+        //AppsFlyerTracker.shared().delegate = self as! AppsFlyerTrackerDelegate
         
         return true
     }
@@ -44,6 +50,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
+        // Track Installs, updates & sessions(app opens) (You must include this API to enable tracking)
+        AppsFlyerTracker.shared().trackAppLaunch()
+        // your other code here.... }
+        
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

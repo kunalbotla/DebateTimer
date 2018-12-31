@@ -1,4 +1,5 @@
 PODS:
+  - AppsFlyerFramework (4.8.10)
   - Firebase/AdMob (5.15.0):
     - Firebase/Core
     - Google-Mobile-Ads-SDK (~> 7.37)
@@ -54,11 +55,13 @@ PODS:
   - nanopb/encode (0.3.901)
 
 DEPENDENCIES:
+  - AppsFlyerFramework
   - Firebase/AdMob
   - Firebase/Core
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AppsFlyerFramework
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -69,6 +72,7 @@ SPEC REPOS:
     - nanopb
 
 SPEC CHECKSUMS:
+  AppsFlyerFramework: 481eafa4f92e3274fa8d04f10108cdad83fd532b
   Firebase: 8bb9268bff82374f2cbaaabb143e725743c316ae
   FirebaseAnalytics: c06f9d70577d79074214700a71fd5d39de5550fb
   FirebaseCore: 35747502d9e8c6ee217385ad04446c7c2aaf9c5c
@@ -78,6 +82,6 @@ SPEC CHECKSUMS:
   GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
 
-PODFILE CHECKSUM: f0e32010ecc7f58ebe710174a8d1420754f2c027
+PODFILE CHECKSUM: c02b9d880d7326a58f2ca934045cc330a5462d6e
 
 COCOAPODS: 1.5.3

@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZp-Q6-KSi">
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZp-Q6-KSi">
                                 <rect key="frame" x="0.0" y="20" width="375" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem id="wyK-0z-nM4">
                                         <barButtonItem key="rightBarButtonItem" id="Bvj-I1-LpT"/>
@@ -28,6 +27,11 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UZp-Q6-KSi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Bz-eW-Dfn"/>
+                            <constraint firstItem="UZp-Q6-KSi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bbC-bo-C1u"/>
+                            <constraint firstItem="UZp-Q6-KSi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="urF-er-Gso"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

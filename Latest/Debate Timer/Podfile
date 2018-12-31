@@ -9,6 +9,7 @@ target 'Debate Timer' do
 
   pod 'Firebase/Core'
   pod 'Firebase/AdMob'
+  pod 'AppsFlyerFramework'
 
   target 'Debate TimerTests' do
     inherit! :search_paths
