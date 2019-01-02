@@ -27,9 +27,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GADMobileAds.configure(withApplicationID: "ca-app-pub-8610495521048327~9605231397")
         
         //Initialize AppsFlyer
-        AppsFlyerTracker.shared().appsFlyerDevKey = "<your-appsflyer-dev-key>";
-        AppsFlyerTracker.shared().appleAppID = "123456789"
-        //AppsFlyerTracker.shared().delegate = self as! AppsFlyerTrackerDelegate
+        AppsFlyerTracker.shared().appsFlyerDevKey = "EXdsco6yuk8wyAVoCBq9m3";
+        AppsFlyerTracker.shared().appleAppID = "1295173100"
+        AppsFlyerTracker.shared()?.delegate = self as? AppsFlyerTrackerDelegate
         
         return true
     }
