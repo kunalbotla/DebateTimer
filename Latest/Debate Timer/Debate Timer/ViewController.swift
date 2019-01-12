@@ -9,6 +9,8 @@
 import UIKit
 import GoogleMobileAds
 
+//Main Var
+
 var speech = "nil"
 var proPrepTime = 120
 var conPrepTime = 120
@@ -88,9 +90,9 @@ class ViewController: UIViewController {
         updatePrep()
         print("ViewDidLoad Running")
         
-        //adBannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
-        //adBannerView.rootViewController = self
-        //adBannerView.load(GADRequest())
+        adBannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        adBannerView.rootViewController = self
+        adBannerView.load(GADRequest())
         
         //Added By Kunal Botla - End
     }
