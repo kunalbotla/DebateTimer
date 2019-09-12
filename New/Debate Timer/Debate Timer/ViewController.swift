@@ -31,6 +31,27 @@ class ViewController: UIViewController {
         labelConPrep.text =  timeString(time: TimeInterval(conPrepTime)) //Label update
     }
     
+    func fullResetConfirm() {
+        print("resetRequest")
+        
+        let alert = UIAlertController(title: "Do you want to reset prep time?", message: "This is not reverseable.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("Yes", comment: "Default action"), style: .destructive, handler: { _ in
+            print("resetAccepted")
+            self.fullReset()
+        }))
+        alert.addAction(UIAlertAction(title: NSLocalizedString("No", comment: "Default action"), style: .cancel, handler: { _ in
+            print("resetRejected")
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func fullReset() {
+        speech = "nil"
+        proPrepTime = 120
+        conPrepTime = 120
+        updatePrep()
+    }
+    
     //if prepRefresh = true {
     //    updatePrep()
     //    prepRefresh = false
@@ -39,10 +60,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var navbarHome: UINavigationBar!
     
     @IBAction func buttonReset(_ sender: Any) {
-        speech = "nil"
-        proPrepTime = 120
-        conPrepTime = 120
-        updatePrep()
+        fullResetConfirm()
     }
     
     @IBAction func buttonCase(_ sender: Any) {
