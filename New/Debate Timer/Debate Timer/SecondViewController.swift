@@ -14,23 +14,10 @@ class SecondViewController: UIViewController {
     var caseAndRebuttalTime = 180
     var crossFireTime = 240
     var summaryAndFinalFocusTime = 120
+    var localSpeech = "Blank"
     
     
-    
-    //State conversion
-    //if speech = "Case" {
-    //    startingTime = caseAndRebuttalTime
-    //} if speech = "Rebuttal" {
-    //    startingTime = caseAndRebuttalTime
-    //} if speech = "Cross Fire" {
-    //    startingTime = crossFireTime
-    //} if speech = "Summary" {
-    //    startingTime = summaryAndFinalFocusTime
-    //} if speech = "Final Focus" {
-    //    startingTime = summaryAndFinalFocusTime
-    //}
-    
-    var seconds = 60 //Timer starting amount
+    var seconds = 0 //Timer starting amount
     var timer = Timer()
     var timerIsRunning = false
     var resumeState = false
@@ -38,8 +25,9 @@ class SecondViewController: UIViewController {
     
     func runTimer() {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(SecondViewController.updateTimer)), userInfo: nil, repeats: true)
-        
         timerIsRunning = true
+        buttonPauseResumeOutlet.isEnabled = true
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
     }
     
     @objc func updateTimer() {
@@ -63,44 +51,96 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var navbarTimer: UINavigationBar!
     
-    @IBAction func buttonFullReset(_ sender: Any) {
-    }
-    
-    @IBOutlet weak var labelSpeech: UILabel!
-    
-    @IBOutlet weak var labelTimer: UILabel!
-    
-    @IBAction func buttonPauseResume(_ sender: Any) {
-        if self.resumeState == false {
-            timer.invalidate()
-            self.resumeState = true
-            self.buttonPauseResume.setTitle("Resume", for: .normal)
-        } else {
-            runTimer()
-            self.resumeState = false
-            self.buttonPauseResume.setTitle("Pause", for: .normal)
-        }
-    }
-    
-    @IBAction func buttonReset(_ sender: Any) {
+    @IBAction func buttonFullReset(_ sender: UIButton) {
+        //Normal Part
         timer.invalidate()
         
         seconds = startingTime //Reset to original time
         labelTimer.text =  timeString(time: TimeInterval(seconds))
         
         timerIsRunning = false
+        
+        buttonPauseResumeOutlet.isEnabled = false
+        
+        //Full Part
+        speech = "nil"
+        proPrepTime = 120
+        conPrepTime = 120
     }
     
-    @IBAction func buttonStart(_ sender: Any) {
+    @IBOutlet weak var labelSpeech: UILabel!
+    
+    @IBOutlet weak var labelTimer: UILabel!
+    
+    @IBOutlet weak var buttonPauseResumeOutlet: UIButton!
+    
+    @IBOutlet weak var buttonResetOutlet: UIButton!
+    
+    @IBOutlet weak var buttonStartOutlet: UIButton!
+    
+    
+    @IBAction func buttonPauseResume(_ sender: UIButton) {
+        if self.resumeState == false {
+            timer.invalidate()
+            self.resumeState = true
+            self.buttonPauseResumeOutlet.setTitle("Resume", for: .normal)
+        } else {
+            runTimer()
+            self.resumeState = false
+            self.buttonPauseResumeOutlet.setTitle("Pause", for: .normal)
+        }
+    }
+    
+    @IBAction func buttonReset(_ sender: UIButton) {
+        timer.invalidate()
+        
+        seconds = startingTime //Reset to original time
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
+        
+        timerIsRunning = false
+        
+        buttonPauseResumeOutlet.isEnabled = false
+    }
+    
+    @IBAction func buttonStart(_ sender: UIButton) {
         if timerIsRunning == false {
             runTimer()
+            self.buttonStartOutlet.isEnabled = false
         }
+    }
+    
+    @IBAction func buttonBack(_ sender: UIButton) {
+        if speech == "Pro Prep" {
+            proPrepTime = seconds
+        } else if speech == "Con Prep" {
+            conPrepTime = seconds
+        }
+        prepRefresh = true
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 //Added By Kunal Botla - Start
         labelSpeech.text = speech
+        if speech == "Case" {
+            startingTime = caseAndRebuttalTime
+        } else if speech == "Rebuttal" {
+            startingTime = caseAndRebuttalTime
+        } else if speech == "Cross Fire" {
+            startingTime = crossFireTime
+        } else if speech == "Summary" {
+            startingTime = summaryAndFinalFocusTime
+        } else if speech == "Final Focus" {
+            startingTime = summaryAndFinalFocusTime
+        } else if speech == "Pro Prep" {
+            startingTime = proPrepTime
+        } else if speech == "Con Prep" {
+            startingTime = conPrepTime
+        }
+        seconds = startingTime
+        labelTimer.text =  timeString(time: TimeInterval(seconds))
+//Added for Timer
+        buttonPauseResumeOutlet.isEnabled = false
 //Added By Kunal Botla - End
         // Do any additional setup after loading the view.
     }

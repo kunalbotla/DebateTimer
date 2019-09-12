@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,21 +14,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Debate_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfC-ni-fJz">
-<<<<<<< HEAD
-                                <rect key="frame" x="0.0" y="44" width="375" height="96"/>
-=======
-                                <rect key="frame" x="0.0" y="20" width="306" height="96"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="Zhk-P7-qso"/>
                                 </constraints>
                                 <items>
                                     <navigationItem title="Home" id="8xT-22-J4w">
-                                        <barButtonItem key="rightBarButtonItem" title="Reset" id="L2S-Ne-gZ8">
+                                        <barButtonItem key="rightBarButtonItem" title="Full Reset" id="L2S-Ne-gZ8">
                                             <connections>
                                                 <action selector="buttonReset:" destination="BYZ-38-t0r" id="dbe-8f-aag"/>
                                             </connections>
@@ -37,11 +33,7 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbM-om-Apt">
-<<<<<<< HEAD
-                                <rect key="frame" x="16" y="388" width="159.33333333333334" height="84"/>
-=======
-                                <rect key="frame" x="16" y="364" width="128" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="16" y="364" width="162.5" height="84"/>
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Summary">
@@ -58,11 +50,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLc-iG-7h8">
-<<<<<<< HEAD
-                                <rect key="frame" x="199.66666666666663" y="388" width="159.33333333333337" height="84"/>
-=======
-                                <rect key="frame" x="162" y="364" width="128" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="196.5" y="364" width="162.5" height="84"/>
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Final Focus">
@@ -79,11 +67,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBk-RW-5JA">
-<<<<<<< HEAD
-                                <rect key="frame" x="16" y="204" width="159.33333333333334" height="84"/>
-=======
-                                <rect key="frame" x="16" y="180" width="128" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="16" y="180" width="162.5" height="84"/>
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="Ghf-DJ-KYV"/>
@@ -103,11 +87,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEQ-nU-O10">
-<<<<<<< HEAD
-                                <rect key="frame" x="199.66666666666663" y="204" width="159.33333333333337" height="84"/>
-=======
-                                <rect key="frame" x="162" y="180" width="128" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="196.5" y="180" width="162.5" height="84"/>
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Rebuttal">
@@ -125,11 +105,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onj-t1-A5r">
-<<<<<<< HEAD
-                                <rect key="frame" x="16" y="296" width="343" height="84"/>
-=======
-                                <rect key="frame" x="16" y="272" width="274" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="16" y="272" width="343" height="84"/>
                                 <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="CrossFire">
@@ -146,11 +122,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiY-qE-72h">
-<<<<<<< HEAD
-                                <rect key="frame" x="193.33333333333337" y="484" width="165.66666666666663" height="84"/>
-=======
-                                <rect key="frame" x="162" y="460" width="128" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="196.5" y="460" width="162.5" height="84"/>
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="35" maxX="0.0" maxY="0.0"/>
@@ -168,11 +140,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7z-I3-OwS">
-<<<<<<< HEAD
-                                <rect key="frame" x="14" y="484" width="163.33333333333334" height="84"/>
-=======
-                                <rect key="frame" x="14" y="460" width="132" height="84"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="14" y="460" width="166.5" height="84"/>
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="35" maxX="0.0" maxY="0.0"/>
@@ -190,26 +158,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulp-b1-KGY">
-<<<<<<< HEAD
-                                <rect key="frame" x="194.33333333333337" y="496" width="164.66666666666663" height="36"/>
-=======
-                                <rect key="frame" x="163" y="472" width="127" height="36"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="197.5" y="472" width="161.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kp5-ny-p54">
-<<<<<<< HEAD
-                                <rect key="frame" x="14" y="496" width="163.33333333333334" height="36"/>
-=======
-                                <rect key="frame" x="14" y="472" width="132" height="36"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="14" y="472" width="166.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remove Ads!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-mw-5ZM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnl-mw-5ZM">
                                 <rect key="frame" x="86" y="588" width="203" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
@@ -229,8 +189,10 @@
                             <constraint firstItem="Ulp-b1-KGY" firstAttribute="trailing" secondItem="onj-t1-A5r" secondAttribute="trailing" id="Fh9-BE-JwS"/>
                             <constraint firstItem="QLc-iG-7h8" firstAttribute="width" secondItem="RbM-om-Apt" secondAttribute="width" id="HLe-rN-fi1"/>
                             <constraint firstItem="WBk-RW-5JA" firstAttribute="top" secondItem="IfC-ni-fJz" secondAttribute="bottom" constant="64" id="K6S-Ks-kgW"/>
+                            <constraint firstItem="QLc-iG-7h8" firstAttribute="width" secondItem="fiY-qE-72h" secondAttribute="width" id="KeK-dy-3Oq"/>
                             <constraint firstItem="QLc-iG-7h8" firstAttribute="top" secondItem="onj-t1-A5r" secondAttribute="bottom" constant="8" id="Knp-bQ-0xP"/>
                             <constraint firstItem="onj-t1-A5r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="MZz-tI-b2u"/>
+                            <constraint firstItem="RbM-om-Apt" firstAttribute="width" secondItem="WBk-RW-5JA" secondAttribute="width" id="O0l-PV-JYv"/>
                             <constraint firstItem="RbM-om-Apt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ou0-ga-wnW"/>
                             <constraint firstItem="QLc-iG-7h8" firstAttribute="height" secondItem="fiY-qE-72h" secondAttribute="height" id="PWu-YR-F9A"/>
                             <constraint firstItem="EEQ-nU-O10" firstAttribute="top" secondItem="IfC-ni-fJz" secondAttribute="bottom" constant="64" id="PuU-oe-o3u"/>
@@ -250,6 +212,7 @@
                             <constraint firstItem="onj-t1-A5r" firstAttribute="height" secondItem="WBk-RW-5JA" secondAttribute="height" id="niV-Ym-92w"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EEQ-nU-O10" secondAttribute="trailing" constant="16" id="o2t-cH-6MB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QLc-iG-7h8" secondAttribute="trailing" constant="16" id="p6m-P7-o2s"/>
+                            <constraint firstItem="RbM-om-Apt" firstAttribute="height" secondItem="WBk-RW-5JA" secondAttribute="height" id="pYh-JF-ce0"/>
                             <constraint firstItem="kp5-ny-p54" firstAttribute="top" secondItem="RbM-om-Apt" secondAttribute="bottom" constant="24" id="r80-pw-bpA"/>
                             <constraint firstItem="onj-t1-A5r" firstAttribute="top" secondItem="EEQ-nU-O10" secondAttribute="bottom" constant="8" id="tRY-Z4-edM"/>
                             <constraint firstItem="WBk-RW-5JA" firstAttribute="width" secondItem="EEQ-nU-O10" secondAttribute="width" id="ule-qO-J47"/>
@@ -274,19 +237,21 @@
             <objects>
                 <viewController id="AKM-Hj-m7T" customClass="SecondViewController" customModule="Debate_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="40j-tq-HIr">
-<<<<<<< HEAD
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-=======
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3u-If-cLm">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <connections>
+                                    <action selector="buttonBack:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="YFs-ag-FCK"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="gEQ-HQ-aLa"/>
+                                </connections>
+                            </button>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-fZ-YZg">
-<<<<<<< HEAD
-                                <rect key="frame" x="0.0" y="44" width="375" height="96"/>
-=======
-                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                                 <items>
                                     <navigationItem title="Timer" id="UOa-TX-Std">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="49s-Yh-Um8"/>
@@ -298,13 +263,8 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-<<<<<<< HEAD
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJz-Is-Pfl">
-                                <rect key="frame" x="0.0" y="280" width="375" height="90"/>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJz-Is-Pfl">
-                                <rect key="frame" x="0.0" y="280" width="414" height="90"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="0.0" y="256" width="375" height="90"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -314,31 +274,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-jX-4Fv">
-                                <rect key="frame" x="16" y="382" width="159.33333333333334" height="64"/>
-                                <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="rS4-fe-uqi"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <state key="normal" title="Pause">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonPauseResume:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="cfQ-r1-Wkc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIi-Km-kFV">
-<<<<<<< HEAD
-                                <rect key="frame" x="199.66666666666663" y="382" width="159.33333333333337" height="64"/>
-=======
-                                <rect key="frame" x="222" y="382" width="176" height="64"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="199.5" y="358" width="159.5" height="64"/>
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="u3M-wy-WQb"/>
@@ -356,23 +293,14 @@
                                     <action selector="buttonReset:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="Pvw-EX-kcl"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Focus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-fx-E6u">
-                                <rect key="frame" x="0.0" y="216" width="375" height="48"/>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Focus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-fx-E6u">
-                                <rect key="frame" x="0.0" y="216" width="414" height="48"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="0.0" y="192" width="375" height="48"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch to Go Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alj-zE-IEM">
-<<<<<<< HEAD
-                                <rect key="frame" x="0.0" y="148" width="375" height="56"/>
-=======
-                                <rect key="frame" x="0.0" y="148" width="414" height="56"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="0.0" y="124" width="375" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="eGM-1S-mCL"/>
                                 </constraints>
@@ -380,7 +308,7 @@
                                 <color key="textColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remove Ads!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-Os-FIx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsv-Os-FIx">
                                 <rect key="frame" x="86" y="588" width="203" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
@@ -388,11 +316,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-2t-7zV">
-<<<<<<< HEAD
-                                <rect key="frame" x="16" y="458" width="343" height="64"/>
-=======
-                                <rect key="frame" x="16" y="458" width="382" height="64"/>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
+                                <rect key="frame" x="16" y="434" width="343" height="64"/>
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Start">
@@ -407,15 +331,8 @@
                                     <action selector="buttonStart:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="mgK-yv-oba"/>
                                 </connections>
                             </button>
-<<<<<<< HEAD
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3u-If-cLm">
-                                <rect key="frame" x="0.0" y="19" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-=======
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-jX-4Fv">
-                                <rect key="frame" x="16" y="382" width="176" height="64"/>
+                                <rect key="frame" x="16" y="358" width="159.5" height="64"/>
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="rS4-fe-uqi"/>
@@ -429,9 +346,8 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
->>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="gEQ-HQ-aLa"/>
+                                    <action selector="buttonPauseResume:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="NsA-a7-ttG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -447,6 +363,7 @@
                             <constraint firstItem="UBo-D6-9QR" firstAttribute="trailing" secondItem="alj-zE-IEM" secondAttribute="trailing" id="ImM-6U-v7Q"/>
                             <constraint firstItem="d1G-fx-E6u" firstAttribute="leading" secondItem="UBo-D6-9QR" secondAttribute="leading" id="KnZ-J4-g3n"/>
                             <constraint firstItem="alj-zE-IEM" firstAttribute="leading" secondItem="UBo-D6-9QR" secondAttribute="leading" id="Op9-Mw-7Mc"/>
+                            <constraint firstItem="swJ-jX-4Fv" firstAttribute="height" secondItem="VIi-Km-kFV" secondAttribute="height" id="SwP-zn-rDI"/>
                             <constraint firstItem="Vht-2t-7zV" firstAttribute="leading" secondItem="UBo-D6-9QR" secondAttribute="leading" constant="16" id="TtE-4W-Trs"/>
                             <constraint firstItem="WK9-fZ-YZg" firstAttribute="leading" secondItem="UBo-D6-9QR" secondAttribute="leading" id="VlW-1T-4uJ"/>
                             <constraint firstItem="Vht-2t-7zV" firstAttribute="top" secondItem="swJ-jX-4Fv" secondAttribute="bottom" constant="12" id="YMV-tS-dTq"/>
@@ -464,8 +381,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="0kp-2b-kMP"/>
                     <connections>
+                        <outlet property="buttonPauseResumeOutlet" destination="swJ-jX-4Fv" id="5eQ-Gc-gH6"/>
+                        <outlet property="buttonResetOutlet" destination="VIi-Km-kFV" id="R6m-Ed-6AU"/>
+                        <outlet property="buttonStartOutlet" destination="Vht-2t-7zV" id="3qg-LK-OFN"/>
                         <outlet property="labelSpeech" destination="d1G-fx-E6u" id="19q-MZ-sNU"/>
-                        <outlet property="labelTimer" destination="xJz-Is-Pfl" id="j9r-t2-EVg"/>
+                        <outlet property="labelTimer" destination="xJz-Is-Pfl" id="LHQ-kA-A1J"/>
                         <outlet property="navbarTimer" destination="WK9-fZ-YZg" id="EUw-dY-vEW"/>
                     </connections>
                 </viewController>
