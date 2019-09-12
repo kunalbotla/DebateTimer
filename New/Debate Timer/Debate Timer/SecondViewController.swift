@@ -49,9 +49,30 @@ class SecondViewController: UIViewController {
         return String(format:"%02i:%02i:%02i", hours, minutes, seconds)
     }
     
-    @IBOutlet weak var navbarTimer: UINavigationBar!
     
-    @IBAction func buttonFullReset(_ sender: UIButton) {
+    func fullResetConfirm() {
+        print("resetRequest")
+        
+        let alert = UIAlertController(title: "Do you want to reset prep time?", message: "This is not reverseable.", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString("Yes", comment: "Default action"), style: .destructive, handler: { _ in
+            print("resetAccepted")
+            self.fullReset()
+            self.simpleReset()
+        }))
+        alert.addAction(UIAlertAction(title: NSLocalizedString("No", comment: "Default action"), style: .cancel, handler: { _ in
+            print("resetRejected")
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func fullReset() {
+        //Full Part
+        speech = "nil"
+        proPrepTime = 120
+        conPrepTime = 120
+    }
+    
+    func simpleReset() {
         //Normal Part
         timer.invalidate()
         
@@ -61,11 +82,13 @@ class SecondViewController: UIViewController {
         timerIsRunning = false
         
         buttonPauseResumeOutlet.isEnabled = false
-        
-        //Full Part
-        speech = "nil"
-        proPrepTime = 120
-        conPrepTime = 120
+    }
+    
+    @IBOutlet weak var navbarTimer: UINavigationBar!
+    
+    @IBAction func buttonFullReset(_ sender: UIButton) {
+        simpleReset()
+        fullReset()
     }
     
     @IBOutlet weak var labelSpeech: UILabel!
@@ -92,14 +115,16 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func buttonReset(_ sender: UIButton) {
-        timer.invalidate()
+        simpleReset()
+        
+        /*timer.invalidate()
         
         seconds = startingTime //Reset to original time
         labelTimer.text =  timeString(time: TimeInterval(seconds))
         
         timerIsRunning = false
         
-        buttonPauseResumeOutlet.isEnabled = false
+        buttonPauseResumeOutlet.isEnabled = false*/
     }
     
     @IBAction func buttonStart(_ sender: UIButton) {
