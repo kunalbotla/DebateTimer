@@ -18,7 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfC-ni-fJz">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+=======
+                                <rect key="frame" x="0.0" y="20" width="306" height="96"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="Zhk-P7-qso"/>
                                 </constraints>
@@ -33,7 +37,11 @@
                                 </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbM-om-Apt">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="388" width="159.33333333333334" height="84"/>
+=======
+                                <rect key="frame" x="16" y="364" width="128" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Summary">
@@ -50,7 +58,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLc-iG-7h8">
+<<<<<<< HEAD
                                 <rect key="frame" x="199.66666666666663" y="388" width="159.33333333333337" height="84"/>
+=======
+                                <rect key="frame" x="162" y="364" width="128" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemYellowColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Final Focus">
@@ -67,7 +79,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBk-RW-5JA">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="204" width="159.33333333333334" height="84"/>
+=======
+                                <rect key="frame" x="16" y="180" width="128" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="84" id="Ghf-DJ-KYV"/>
@@ -87,7 +103,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEQ-nU-O10">
+<<<<<<< HEAD
                                 <rect key="frame" x="199.66666666666663" y="204" width="159.33333333333337" height="84"/>
+=======
+                                <rect key="frame" x="162" y="180" width="128" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Rebuttal">
@@ -105,7 +125,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onj-t1-A5r">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="296" width="343" height="84"/>
+=======
+                                <rect key="frame" x="16" y="272" width="274" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="CrossFire">
@@ -122,7 +146,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiY-qE-72h">
+<<<<<<< HEAD
                                 <rect key="frame" x="193.33333333333337" y="484" width="165.66666666666663" height="84"/>
+=======
+                                <rect key="frame" x="162" y="460" width="128" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="35" maxX="0.0" maxY="0.0"/>
@@ -140,7 +168,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7z-I3-OwS">
+<<<<<<< HEAD
                                 <rect key="frame" x="14" y="484" width="163.33333333333334" height="84"/>
+=======
+                                <rect key="frame" x="14" y="460" width="132" height="84"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <inset key="titleEdgeInsets" minX="0.0" minY="35" maxX="0.0" maxY="0.0"/>
@@ -158,13 +190,21 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulp-b1-KGY">
+<<<<<<< HEAD
                                 <rect key="frame" x="194.33333333333337" y="496" width="164.66666666666663" height="36"/>
+=======
+                                <rect key="frame" x="163" y="472" width="127" height="36"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kp5-ny-p54">
+<<<<<<< HEAD
                                 <rect key="frame" x="14" y="496" width="163.33333333333334" height="36"/>
+=======
+                                <rect key="frame" x="14" y="472" width="132" height="36"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -234,11 +274,19 @@
             <objects>
                 <viewController id="AKM-Hj-m7T" customClass="SecondViewController" customModule="Debate_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="40j-tq-HIr">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-fZ-YZg">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="44" width="375" height="96"/>
+=======
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <items>
                                     <navigationItem title="Timer" id="UOa-TX-Std">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="49s-Yh-Um8"/>
@@ -250,8 +298,13 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJz-Is-Pfl">
                                 <rect key="frame" x="0.0" y="280" width="375" height="90"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJz-Is-Pfl">
+                                <rect key="frame" x="0.0" y="280" width="414" height="90"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <fontDescription key="fontDescription" type="system" pointSize="75"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -281,7 +334,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VIi-Km-kFV">
+<<<<<<< HEAD
                                 <rect key="frame" x="199.66666666666663" y="382" width="159.33333333333337" height="64"/>
+=======
+                                <rect key="frame" x="222" y="382" width="176" height="64"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="u3M-wy-WQb"/>
@@ -299,14 +356,23 @@
                                     <action selector="buttonReset:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="Pvw-EX-kcl"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Focus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-fx-E6u">
                                 <rect key="frame" x="0.0" y="216" width="375" height="48"/>
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Focus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d1G-fx-E6u">
+                                <rect key="frame" x="0.0" y="216" width="414" height="48"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch to Go Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alj-zE-IEM">
+<<<<<<< HEAD
                                 <rect key="frame" x="0.0" y="148" width="375" height="56"/>
+=======
+                                <rect key="frame" x="0.0" y="148" width="414" height="56"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="eGM-1S-mCL"/>
                                 </constraints>
@@ -322,7 +388,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vht-2t-7zV">
+<<<<<<< HEAD
                                 <rect key="frame" x="16" y="458" width="343" height="64"/>
+=======
+                                <rect key="frame" x="16" y="458" width="382" height="64"/>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <state key="normal" title="Start">
@@ -337,11 +407,29 @@
                                     <action selector="buttonStart:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="mgK-yv-oba"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3u-If-cLm">
                                 <rect key="frame" x="0.0" y="19" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+=======
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swJ-jX-4Fv">
+                                <rect key="frame" x="16" y="382" width="176" height="64"/>
+                                <color key="backgroundColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="rS4-fe-uqi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+>>>>>>> parent of 3986ea4... Complete 2.0 (2)
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="gEQ-HQ-aLa"/>
                                 </connections>
