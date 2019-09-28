@@ -199,13 +199,16 @@
 				TargetAttributes = {
 					1E74BB8B215BE2B300DCEE16 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
 					};
 					1E74BBA2215BE2B500DCEE16 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
 						TestTargetID = 1E74BB8B215BE2B300DCEE16;
 					};
 					1E74BBAD215BE2B600DCEE16 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1100;
 						TestTargetID = 1E74BB8B215BE2B300DCEE16;
 					};
 				};
@@ -449,7 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -467,7 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -487,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debate Timer.app/Debate Timer";
 			};
@@ -508,7 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debate Timer.app/Debate Timer";
 			};
@@ -528,7 +531,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Debate Timer";
 			};
@@ -548,7 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.botla.Debate-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Debate Timer";
 			};
