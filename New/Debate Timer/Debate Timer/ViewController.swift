@@ -12,6 +12,8 @@ var speech = "nil"
 var proPrepTime = 120
 var conPrepTime = 120
 var prepRefresh = false
+var nsdaNewTime = false
+
 
 
 class ViewController: UIViewController {
@@ -47,11 +49,38 @@ class ViewController: UIViewController {
     
     func fullReset() {
         speech = "nil"
-        proPrepTime = 120
-        conPrepTime = 120
+        nsdaTimeChange()
         updatePrep()
     }
     
+    func nsdaTimeChange() {
+        if nsdaNewTime == false {
+            labelProPrep.text = "00:02:00"
+            labelConPrep.text = "00:02:00"
+            proPrepTime = 120
+            conPrepTime = 120
+        } else if nsdaNewTime == true {
+            labelProPrep.text = "00:03:00"
+            labelConPrep.text = "00:03:00"
+            proPrepTime = 180
+            conPrepTime = 180
+        }
+    }
+    
+    func segmentedControlTimeChange() {
+        switch segmentedControlOutlet.selectedSegmentIndex {
+        case 0:
+            nsdaNewTime = false
+            nsdaTimeChange()
+            
+        case 1:
+            nsdaNewTime = true
+            nsdaTimeChange()
+        
+        default:
+            break
+        }
+    }
     //if prepRefresh = true {
     //    updatePrep()
     //    prepRefresh = false
@@ -62,6 +91,13 @@ class ViewController: UIViewController {
     @IBAction func buttonReset(_ sender: Any) {
         fullResetConfirm()
     }
+
+    @IBOutlet weak var segmentedControlOutlet: UISegmentedControl!
+    
+    @IBAction func segmentedControlChanged(_ sender: Any) {
+        segmentedControlTimeChange()
+    }
+    
     
     @IBAction func buttonCase(_ sender: Any) {
         speech = "Case"

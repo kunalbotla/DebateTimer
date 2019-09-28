@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Debate_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfC-ni-fJz">
@@ -23,6 +23,22 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Home" id="8xT-22-J4w">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="3Yo-2Y-k1T">
+                                            <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="d1d-Jj-Qcf">
+                                                <rect key="frame" x="16" y="5.5" width="131" height="33"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <segments>
+                                                    <segment title="2 min"/>
+                                                    <segment title="3 min"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="segmentedControlChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="EXP-zC-hRC"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <connections>
+                                                <action selector="segmentedControlTimeChange:" destination="BYZ-38-t0r" id="J7H-qy-nYl"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Full Reset" id="L2S-Ne-gZ8">
                                             <connections>
                                                 <action selector="buttonReset:" destination="BYZ-38-t0r" id="dbe-8f-aag"/>
@@ -226,6 +242,7 @@
                         <outlet property="labelConPrep" destination="Ulp-b1-KGY" id="F8o-eP-1bj"/>
                         <outlet property="labelProPrep" destination="kp5-ny-p54" id="sta-c7-a4N"/>
                         <outlet property="navbarHome" destination="IfC-ni-fJz" id="xx8-he-uW2"/>
+                        <outlet property="segmentedControlOutlet" destination="d1d-Jj-Qcf" id="f3F-ji-Hcb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -246,7 +263,6 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <connections>
                                     <action selector="buttonBack:" destination="AKM-Hj-m7T" eventType="touchUpInside" id="YFs-ag-FCK"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="p5s-OE-rX6"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WK9-fZ-YZg">
