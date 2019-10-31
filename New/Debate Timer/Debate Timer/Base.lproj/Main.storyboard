@@ -270,11 +270,6 @@
                                 <items>
                                     <navigationItem title="Timer" id="UOa-TX-Std">
                                         <barButtonItem key="backBarButtonItem" title="Back" id="49s-Yh-Um8"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Full Reset" id="EDB-81-bj1">
-                                            <connections>
-                                                <action selector="buttonFullReset:" destination="AKM-Hj-m7T" id="dbd-K0-DgU"/>
-                                            </connections>
-                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -314,7 +309,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch to Go Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alj-zE-IEM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Down to Go Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alj-zE-IEM">
                                 <rect key="frame" x="0.0" y="116" width="375" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="eGM-1S-mCL"/>
